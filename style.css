@@ -78,11 +78,18 @@ align-self: center;
   width: 90%;
   justify-content: center;
   background-color: rgb(35, 33, 33);
-}
-.splash-grid p{
   margin: 0 auto;
+}
+
+.Text1page{
+  font-size: 2vw;
+  color: rgb(197, 193, 189);
+  border-style: 3px 3px 3px 3px;
+  border-color: aqua;
 
 }
-p{
-  color: rgb(197, 193, 189);
+
+#acdc{
+  height: 30%;
+
 }
