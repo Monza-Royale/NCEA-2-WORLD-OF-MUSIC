@@ -75,16 +75,18 @@ max-height:75%;
 .splash-grid{
   display: grid;
   grid-template-columns: 50%;
-  grid-template-rows: 25% 25% 25% 25%;
+  text-align: center;
   width: 90%;
   justify-content: center;
   background-color: rgb(35, 33, 33);
   margin: 0 auto;
   padding: 5%;
   max-width: 90%;
-
 }
-
+.splash-grid h1{
+  font-size: 4vw;
+  color: rgb(197, 193, 189);
+}
 .Text1page{
   font-size: 2vw;
   color: rgb(197, 193, 189);
@@ -98,33 +100,22 @@ width: 40vw;
 
 #acdc{
 width: 30vw;
-
 }
-.img1-grid{
-  box-shadow: 5px 5px 5px 5px  #888888;
 
+.img1-grid{
+box-shadow:inset 5px 5px 5px 5px;
+background-color: rgb(63, 60, 60);
+width: 80%;
 }
 .img2-grid{
-  box-shadow: 5px 5px 5px 5px  #888888;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30px;
-}
+  background-color: blue;
 
+}
 .img3-grid{
-  box-shadow: 5px 5px 5px 5px  #888888;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 30px;
-}
+  background-color: blue;
 
+}
 .img4-grid{
-  box-shadow: 5px 5px 5px 5px  #888888;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:contain;
-  height: 30vw;
-  align-self:center;
+  background-color: green;
 
 }
