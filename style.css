@@ -74,7 +74,7 @@ max-height:75%;
 
 .splash-grid{
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 70%;
   text-align: center;
   width: 90%;
   justify-content: center;
@@ -86,10 +86,12 @@ max-height:75%;
 .splash-grid h1{
   font-size: 4vw;
   color: rgb(197, 193, 189);
+
 }
 .Text1page{
   font-size: 2vw;
   color: rgb(197, 193, 189);
+
 
 }
 
@@ -102,20 +104,3 @@ width: 40vw;
 width: 30vw;
 }
 
-.img1-grid{
-box-shadow:inset 5px 5px 5px 5px;
-background-color: rgb(63, 60, 60);
-width: 80%;
-}
-.img2-grid{
-  background-color: blue;
-
-}
-.img3-grid{
-  background-color: blue;
-
-}
-.img4-grid{
-  background-color: green;
-
-}
