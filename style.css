@@ -16,13 +16,12 @@ body, html {
     position: fixed;
     width:90%;
 }
-.options a{
-    color: #f2f2f2 ;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.5svw;
 
-
+.options a {
+  color: #f2f2f2 ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5svw;
 }
 
 .split{
@@ -46,7 +45,7 @@ body, html {
 .hero-image {
   display: flex;
 
-    background-image: url("beanstalk-dark.png");
+    background-image: url("Images/beanstalk-dark.png");
   height: 100%;
   width: 100%;
   background-position: center;
