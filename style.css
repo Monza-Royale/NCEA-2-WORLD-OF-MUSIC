@@ -6,6 +6,13 @@ body, html {
     background-color: rgb(65, 61, 61);
 }
 
+
+
+p{
+  font-size: 1.8vw;
+  color: rgb(197, 193, 189);
+}
+
 /* Navagation --------------------------------*/
 
 .options{
@@ -64,7 +71,7 @@ max-height:75%;
 .hero-text {
   align-self: center;
   text-align: center;
-  font-size: 2.4vw;
+  font-size: 3.4vw;
   color: white;
 
   padding: 50% 5%;
@@ -82,24 +89,35 @@ max-height:75%;
   padding: 5%;
   max-width: 90%;
 }
-.splash-grid h1{
-  font-size: 4vw;
-  color: rgb(197, 193, 189);
 
-}
 .Text1page{
   font-size: 2vw;
   color: rgb(197, 193, 189);
-
-
 }
 
 #queen{
-width: 40vw;
+width: 35vw;
 
 }
 
 #acdc{
-width: 30vw;
+width: 25vw;
 }
-
+/* The Info Pages on other 4 pages -------------------*/
+.splash-grid-pages{
+  display: grid;
+  grid-template-columns: 70%;
+  text-align: center;
+  width: 90%;
+  justify-content: center;
+  background-color: rgb(35, 33, 33);
+  margin: 0 auto;
+  padding: 5%;
+  max-width: 90%;
+}
+h1{
+align-self: center;
+text-align: center;
+font-size: 5.4vw;
+color: white;
+}
