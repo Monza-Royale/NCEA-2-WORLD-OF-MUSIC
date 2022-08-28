@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body, html {
     height: 100%;
     max-width: 90vw;
@@ -62,17 +64,16 @@ max-height:75%;
 }
 
 #bass{
-    height: 30vw;
-    align-self:center;
-    padding:0% 5% 0% 5%;
- border-bottom: 5%;
+  height: 30vw;
+  align-self:center;
+  padding:0% 5% 0% 5%;
 }
 
 .hero-text {
   align-self: center;
   text-align: center;
   font-size: 3.4vw;
-  color: white;
+  color: rgb(197, 193, 189);
 
   padding: 50% 5%;
 }
@@ -115,9 +116,23 @@ width: 25vw;
   padding: 5%;
   max-width: 90%;
 }
+
+.splash-grid-pages p{
+padding-top: 2vw;
+padding-bottom: 2vw;
+}
+
 h1{
 align-self: center;
 text-align: center;
-font-size: 5.4vw;
-color: white;
+font-size: 5vw;
+color: rgb(197, 193, 189);
+}
+
+/* Media query for image control in smallest website version -------------------*/
+
+@media screen and (max-width: 750px) {
+  .hero-image{
+    max-height: 60vw;
+  }
 }
